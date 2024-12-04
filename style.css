@@ -1,0 +1,300 @@
+body{
+    background-image: url(assets/img/HomeWebsite.png);
+    background-attachment: fixed;
+}
+.textcenter{
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 110%;
+    font-weight: 600;
+}
+.notestext{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tabcenter{
+    width: 25%;
+    border-spacing: 10px 7px;
+    --border: 1px lime solid;
+    text-align: center;
+    border-radius: 50px;
+    margin: 0px auto;
+}
+.textbones{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.8vw;
+    padding-top: 10px; 
+    padding-right:70px; 
+    position: relative; 
+    left: 2em;
+}
+.imagescale{
+    margin-top: 0.5%;
+    margin-left: 1.5%;
+    width: 24.5%;
+    float: left;
+    z-index: 2;
+}
+.selectable{
+    width: 100px;
+}
+.card{
+    text-decoration: none;
+    color: white;
+}
+.headerimagescale{
+    display: block;
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portraitimg{
+    width: 256px;
+    height: 256px;
+}
+.centertable{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px 25px;
+}
+.portraitdescription{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 140%;
+    color: white;
+    vertical-align: text-top;
+    width: 100%;
+}
+.footerimage{
+    width: 15%;
+    padding-left: 30px;
+}
+
+.missiontext{
+    text-align: center;
+    color: white;
+    vertical-align: text-top;
+}
+.missioninfo{
+    
+    vertical-align: text-top;
+}
+.centertable td{
+    border: 1px rgb(68, 0, 0) solid;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#main{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+#sidebar{
+    width: 2%;
+    height: 2000px;
+    float: left;
+}
+header{
+    --background-color: aqua;
+    margin-left: 6%;
+    width: 88%;
+    
+    height: 300px;
+}
+#pointers{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 20px;
+    margin-left: 6%;
+    width: 88%;
+    
+    height: 150px;
+    font-family: 'Lora';
+}
+#drbones{ 
+    position: relative;
+    --background-color: yellow;
+    background-size: 100%;
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 88%;
+    
+    height: 600px;
+    z-index: 2;
+
+}
+#bg1{
+    z-index: -1;
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+}
+#bg2{
+    z-index: -1;
+    margin-left: 27%;
+    width: 63vw;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+}
+#bg3{
+    z-index: -1;
+    margin-top: 23.5%;
+    width: 27%;
+    height: 11.6vw;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+}
+
+hr{
+    border-top: 8px solid black;
+    margin-left: 6%;
+    margin-top: 40px;
+    width: 88%;
+
+}
+#notes{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 88%;
+    font-size: 1.8vw;
+    color: white;
+    height: 600px;
+
+}
+#ads{
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 88%;
+    height: 200px;
+
+}
+#ad1{
+    background-color: lightblue;
+    width: 48%;
+
+    height: 25%;
+    float: left;
+    display: block;
+}
+#ad2{
+    
+    background-color: paleturquoise;
+    width: 48%;
+    margin-left: 50%;
+    height: 25%;
+    display: block;
+}
+
+#artbanner{
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 88%;
+    height: 150px;
+}
+#aboutppl{
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 88%;
+    height: 200px;
+}
+#msgandchat{
+    background-color: wheat;
+    margin-top: 20px;
+    margin-left: 6%;
+    width: 88%;
+    height: 100px;
+
+}
+#leavemessage{
+    background-color: aquamarine;
+    width: 80%;
+    height: 60%;
+    position: relative;
+    top: 40%;
+    float: left;
+}
+
+
+
+@media screen and (max-width:600px) {
+    
+.imagescale{
+    float: none;
+    padding-left: 5%;
+    width: 85%;
+}
+
+#drbones{ 
+    position: relative;
+    --background-color: yellow;
+    background-size: 100%;
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 88%;
+    
+    height: 900px;
+    z-index: 2;
+
+}
+.textbones{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 105%;
+    color: white;
+    
+    padding-left: 2.5%;
+    padding-top: 10px; 
+    padding-right: 2.5%; 
+    position: static; 
+    left: 0;
+}
+#notes{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 88%;
+    font-size: 105%;
+    color: white;
+    height: 350px;
+
+}
+#bg1{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+#bg2{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+#bg3{
+    z-index: -1;
+    margin-top: 80.5%;
+    width: 100%;
+    height: 70%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+}
+
+.selectable{
+    width: 65px;
+}
+#sidebar{
+    height: 2000px;
+}
+#drbones{
+    height: 800px;
+
+}
+}
+.selectable:hover{
+    filter: grayscale(25%) saturate(25%);
+}
