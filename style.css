@@ -381,6 +381,35 @@ hr{
     display: block;
 }
 }
+
+@media screen and (max-width:768px) {
+    #drbones{ 
+        position: relative;
+        --background-color: yellow;
+        background-size: 100%;
+        margin-top: 40px;
+        margin-left: 6%;
+        width: 88%;
+        
+        height: 245px;
+        z-index: 2;
+    
+    }
+}
+@media screen and (max-width:1013px) {
+    #drbones{ 
+        position: relative;
+        --background-color: yellow;
+        background-size: 100%;
+        margin-top: 40px;
+        margin-left: 6%;
+        width: 88%;
+        
+        height: 324px;
+        z-index: 2;
+    
+    }
+}
 .selectable:hover{
     filter: grayscale(25%) saturate(25%);
 }
